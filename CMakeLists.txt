@@ -5,6 +5,10 @@ find_package( OpenCV REQUIRED )
 
 set( movementDetection_SRCS
 	main.cpp
+    MovementDetector.cpp
+    MovementDetector.h
+    TextureUpdate.cpp
+    TextureUpdate.h
 )
 
 IF(TARGET_PLATFORM STREQUAL TARGET_ANDROID)
